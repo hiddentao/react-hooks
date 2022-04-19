@@ -1,4 +1,4 @@
-# `@hiddentao/use-progress`
+# `@umbongo/use-progress`
 
 A [React hook](https://reactjs.org/docs/hooks-intro.html) that makes it easier to track the progress of asynchronous tasks.
 
@@ -6,7 +6,7 @@ A [React hook](https://reactjs.org/docs/hooks-intro.html) that makes it easier t
 ## Installation
 
 ```shell
-npm i --save @hiddentao/use-progress
+npm i --save @umbongo/use-progress
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ updates the current progress shown on screen. After 5 seconds the timer either t
 the process as completed, i.e. succcessful.
 
 ```js
-import { UseProgressHook, useProgress } from '@hiddentao/use-progress`
+import { UseProgressHook, useProgress } from '@umbongo/use-progress`
 
 export const RandomTimer = () => {
   const progress = useProgress()

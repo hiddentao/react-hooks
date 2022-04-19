@@ -1,5 +1,5 @@
 {
-  "name": "@hiddentao/use-progress",
+  "name": "@umbongo/use-progress",
   "version": "0.1.1",
   "description": "Hook for keeping track of async progress",
   "keywords": [
@@ -34,5 +34,5 @@
   "devDependencies": {
     "typescript": "^4.6.3"
   },
-  "gitHead": "730ebebcea077f496e3b0c5b922ce15aeb3f3bda"
+  "gitHead": "fbbf273240fc5c4b8dbb1dc7af3d69cc9649ffc6"
 }

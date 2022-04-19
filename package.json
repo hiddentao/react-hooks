@@ -1,5 +1,5 @@
 {
-  "name": "@hiddentao/react-hooks",
+  "name": "@umbongo/react-hooks",
   "version": "1.0.0",
   "description": "Useful react hooks for async programming, web3, etc",
   "main": "index.js",
