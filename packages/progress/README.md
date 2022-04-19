@@ -16,7 +16,7 @@ updates the current progress shown on screen. After 5 seconds the timer either t
 the process as completed, i.e. succcessful.
 
 ```js
-import React from 'react'
+import { useCallback } from 'react'
 import { useProgress } from '@rjshooks/use-progress'
 
 export const RandomTimer = () => {

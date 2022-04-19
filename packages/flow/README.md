@@ -14,7 +14,7 @@ npm i --save @rjshooks/use-flow
 In this simple example below, the user clicks a button to trigger 3 separate async steps. The progress indicator text updates as each subsequent step gets executed. 50% of the time any of the steps can fail, at which point an error will be shown. If all steps pass then a success message gets shown. Finally, the user can click the button again to restart the sequence from scratch.
 
 ```js
-import React from 'react'
+import { useCallback } from 'react'
 import delay from 'delay'
 import { useFlow } from '@rjshooks/use-flow'
 
