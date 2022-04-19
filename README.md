@@ -2,7 +2,7 @@ A collection of useful [React hooks](https://reactjs.org/docs/hooks-intro.html) 
 
 * [@rjshooks/use-progress](./packages/progress/) - tracking the progress of a sequence of tasks.
 * [@rjshooks/use-flow](./packages/flow/) - queueing up and sequentially executing of multiple async methods, with progress tracking.
-* [@rjshooks/use-contract-function](./packages/contract-function/) - for calling Ethereum contract functions with precise error handling and progress tracking. Intended as a replacement for [useContractFunction](https://usedapp-docs.netlify.app/docs/API%20Reference/Hooks#usecontractfunction) from the [useDapp](https://usedapp.io/) package.
+* [@rjshooks/use-contract-function](./packages/contract-function/) - for calling Ethereum contract functions with precise error handling and progress tracking. 
 
 
 
