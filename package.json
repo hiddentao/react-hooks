@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Useful react hooks for async programming, web3, etc",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hiddentao/react-hooks.git"
@@ -22,7 +19,71 @@
     "url": "https://github.com/hiddentao/react-hooks/issues"
   },
   "homepage": "https://github.com/hiddentao/react-hooks#readme",
-  "dependencies": {
-    "lerna": "^4.0.0"
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "pre-release": "lerna version --conventional-commits",
+    "release": "lerna publish from-git"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "standard-version": {
+    "types": [
+      {
+        "type": "feat",
+        "section": "Features"
+      },
+      {
+        "type": "fix",
+        "section": "Bug Fixes"
+      },
+      {
+        "type": "chore",
+        "hidden": true
+      },
+      {
+        "type": "docs",
+        "section": "Documentation"
+      },
+      {
+        "type": "style",
+        "hidden": true
+      },
+      {
+        "type": "refactor",
+        "hidden": true
+      },
+      {
+        "type": "perf",
+        "hidden": true
+      },
+      {
+        "type": "test",
+        "hidden": true
+      }
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@types/react": "^18.0.5",
+    "husky": "^7.0.4",
+    "lerna": "^4.0.0",
+    "react": "^18.0.0",
+    "standard-version": "^9.3.2"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0"
   }
 }
