@@ -4,7 +4,7 @@ A collection of useful [React hooks](https://reactjs.org/docs/hooks-intro.html) 
 * [@rjshooks/use-flow](./packages/flow/) - queueing up and sequentially executing of multiple async methods, with progress tracking.
 * [@rjshooks/use-contract-function](./packages/contract-function/) - for calling Ethereum contract functions with precise error handling and progress tracking. 
 
-## Development
+## Development
 
 _Note: This is a [Lerna monorepo](https://github.com/lerna/lerna). All code is in [Typescript](https://www.typescriptlang.org/)._
 
