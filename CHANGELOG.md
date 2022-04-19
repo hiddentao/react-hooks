@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.1.3](https://github.com/hiddentao/react-hooks/compare/v0.1.2...v0.1.3) (2022-04-19)
 
-**Note:** Version bump only for package @umbongo/react-hooks
+**Note:** Version bump only for package @rjshooks/react-hooks
 
 
 
@@ -13,7 +13,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.1.2](https://github.com/hiddentao/react-hooks/compare/v0.1.1...v0.1.2) (2022-04-19)
 
-**Note:** Version bump only for package @umbongo/react-hooks
+**Note:** Version bump only for package @rjshooks/react-hooks
 
 
 

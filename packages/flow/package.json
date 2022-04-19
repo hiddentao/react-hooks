@@ -1,8 +1,9 @@
 {
-  "name": "@rjshooks/use-progress",
+  "name": "@rjshooks/use-flow",
   "version": "0.1.3",
-  "description": "React hook for tracking the progress of a sequence of tasks.",
+  "description": "React hook for queueing up and sequentially executing of multiple async methods, with progress tracking.",
   "keywords": [
+    "flow",
     "progress",
     "react",
     "hook",

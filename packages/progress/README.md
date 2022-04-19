@@ -1,12 +1,12 @@
-# `@umbongo/use-progress`
+# `@rjshooks/use-progress`
 
-A [React hook](https://reactjs.org/docs/hooks-intro.html) that makes it easier to track the progress of asynchronous tasks.
+[React hook](https://reactjs.org/docs/hooks-intro.html) for tracking the progress of a sequence of tasks.
 
 
 ## Installation
 
 ```shell
-npm i --save @umbongo/use-progress
+npm i --save @rjshooks/use-progress
 ```
 
 ## Usage
@@ -16,7 +16,8 @@ updates the current progress shown on screen. After 5 seconds the timer either t
 the process as completed, i.e. succcessful.
 
 ```js
-import { UseProgressHook, useProgress } from '@umbongo/use-progress`
+import React from 'react'
+import { useProgress } from '@rjshooks/use-progress'
 
 export const RandomTimer = () => {
   const progress = useProgress()
