@@ -1,0 +1,28 @@
+{
+  "name": "@hiddentao/react-hooks",
+  "version": "1.0.0",
+  "description": "Useful react hooks for async programming, web3, etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiddentao/react-hooks.git"
+  },
+  "keywords": [
+    "react",
+    "web3",
+    "hooks",
+    "async"
+  ],
+  "author": "Ramesh Nair <ram@hiddentao.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hiddentao/react-hooks/issues"
+  },
+  "homepage": "https://github.com/hiddentao/react-hooks#readme",
+  "dependencies": {
+    "lerna": "^4.0.0"
+  }
+}
