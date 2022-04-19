@@ -12,6 +12,7 @@
   "homepage": "https://github.com/hiddentao/react-hooks/tree/main/packages/progress#readme",
   "license": "MIT",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib",
     "README.md",

@@ -13,6 +13,7 @@
   "homepage": "https://github.com/hiddentao/react-hooks/tree/main/packages/progress#readme",
   "license": "MIT",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib",
     "README.md",
@@ -38,5 +39,8 @@
   "devDependencies": {
     "typescript": "^4.6.3"
   },
-  "gitHead": "d6094b98c5c3a1ebe81880eaace364859412dd81"
+  "gitHead": "d6094b98c5c3a1ebe81880eaace364859412dd81",
+  "dependencies": {
+    "@rjshooks/use-progress": "^0.1.3"
+  }
 }
