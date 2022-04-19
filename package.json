@@ -20,11 +20,11 @@
   },
   "homepage": "https://github.com/hiddentao/react-hooks#readme",
   "scripts": {
+    "prepare": "husky install",
     "bootstrap": "lerna bootstrap --hoist",
     "commitmsg": "commitlint -e $GIT_PARAMS",
-    "pre-release": "lerna version --conventional-commits",
-    "release": "lerna publish from-git",
-    "prepare": "husky install"
+    "pre-release": "./scripts/prepare-release.sh",
+    "release": "./scripts/release.sh"     
   },
   "husky": {
     "hooks": {
