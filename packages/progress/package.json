@@ -1,6 +1,6 @@
 {
   "name": "@hiddentao/use-progress",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Hook for keeping track of async progress",
   "keywords": [
     "progress",
