@@ -24,6 +24,9 @@
     "type": "git",
     "url": "git+https://github.com/hiddentao/react-hooks.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch"
@@ -34,5 +37,5 @@
   "devDependencies": {
     "typescript": "^4.6.3"
   },
-  "gitHead": "fbbf273240fc5c4b8dbb1dc7af3d69cc9649ffc6"
+  "gitHead": "d6094b98c5c3a1ebe81880eaace364859412dd81"
 }
