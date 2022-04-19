@@ -20,9 +20,6 @@
     "CHANGELOG.md",
     "LICENSE.md"
   ],
-  "publishConfig": {
-    "registry": "https://registry.yarnpkg.com"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hiddentao/react-hooks.git"
@@ -36,5 +33,6 @@
   },
   "devDependencies": {
     "typescript": "^4.6.3"
-  }
+  },
+  "gitHead": "730ebebcea077f496e3b0c5b922ce15aeb3f3bda"
 }
