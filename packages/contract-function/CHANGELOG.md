@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.3](https://github.com/hiddentao/react-hooks/compare/v0.2.2...v0.2.3) (2022-05-09)
+
+
+### Bug Fixes
+
+* **contract-function:** update progress with initial error ([44a7ecd](https://github.com/hiddentao/react-hooks/commit/44a7ecd1f928fc8348f36f00a5b21f1b6dbbe7ee))
+
+
+
+
+
 ## [0.2.2](https://github.com/hiddentao/react-hooks/compare/v0.2.1...v0.2.2) (2022-05-09)
 
 
