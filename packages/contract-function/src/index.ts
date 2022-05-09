@@ -37,14 +37,17 @@ export const useContractFunction = (opts: UseContractFunctionInput): UseContract
   const [promiseResolvers, setPromiseResolvers] = useState<PromiseResolvers>()
 
   const exec = useCallback(async (...args: any[]) => {
-    resetState()
-    progress.reset()
-
-    progress.setActiveStep('sending')
-    send(...args)
-
     return new Promise((resolve, reject) => {
       setPromiseResolvers({ resolve, reject })
+      try {
+        resetState()
+        progress.reset()
+
+        progress.setActiveStep('sending')
+        send(...args)
+      } catch (err) {
+        reject(err)
+      }
     })
   }, [progress, resetState, send])
 
