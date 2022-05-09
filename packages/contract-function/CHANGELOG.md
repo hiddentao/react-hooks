@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/hiddentao/react-hooks/compare/v0.2.0...v0.2.1) (2022-05-09)
+
+
+### Bug Fixes
+
+* **contract-function:** error handling was broken ([3e3e362](https://github.com/hiddentao/react-hooks/commit/3e3e362d4ee406460db2e04c2e44d32c721361ca))
+
+
+
+
+
 # [0.2.0](https://github.com/hiddentao/react-hooks/compare/v0.1.5...v0.2.0) (2022-05-09)
 
 
