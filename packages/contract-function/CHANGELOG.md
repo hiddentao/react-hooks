@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/hiddentao/react-hooks/compare/v0.2.1...v0.2.2) (2022-05-09)
+
+
+### Bug Fixes
+
+* **contract-function:** dont use async function inside promise constructor ([04fed39](https://github.com/hiddentao/react-hooks/commit/04fed3998b0485fff92b9b96c8cc3f97976d6ff6))
+
+
+
+
+
 ## [0.2.1](https://github.com/hiddentao/react-hooks/compare/v0.2.0...v0.2.1) (2022-05-09)
 
 
