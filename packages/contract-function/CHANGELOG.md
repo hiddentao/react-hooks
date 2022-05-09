@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/hiddentao/react-hooks/compare/v0.1.5...v0.2.0) (2022-05-09)
+
+
+### Features
+
+* **contract-funciton:** improve error checking ([800eef3](https://github.com/hiddentao/react-hooks/commit/800eef315843bd21eb7527e8f327c07a2f3588bd))
+* **contract-funciton:** improve error checking ([ec4d5ee](https://github.com/hiddentao/react-hooks/commit/ec4d5ee8e135398c7fe516d7d82ffae9954ebc4b))
+* **contract-funciton:** improve error checking ([0fcad87](https://github.com/hiddentao/react-hooks/commit/0fcad87641cdb405c8d063a7ac6fb52dd4f1a727))
+
+
+
+
+
 ## [0.1.5](https://github.com/hiddentao/react-hooks/compare/v0.1.4...v0.1.5) (2022-04-19)
 
 **Note:** Version bump only for package @rjshooks/use-contract-function

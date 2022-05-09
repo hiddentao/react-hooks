@@ -1,6 +1,6 @@
 {
   "name": "@rjshooks/use-progress",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "React hook for tracking the progress of a sequence of tasks.",
   "keywords": [
     "progress",

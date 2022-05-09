@@ -1,6 +1,6 @@
 {
   "name": "@rjshooks/use-flow",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "React hook for queueing up and sequentially executing of multiple async methods, with progress tracking.",
   "keywords": [
     "flow",
@@ -41,6 +41,6 @@
   },
   "gitHead": "d6094b98c5c3a1ebe81880eaace364859412dd81",
   "dependencies": {
-    "@rjshooks/use-progress": "^0.1.5"
+    "@rjshooks/use-progress": "^0.2.0"
   }
 }
