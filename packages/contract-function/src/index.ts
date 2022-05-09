@@ -42,7 +42,10 @@ export const useContractFunction = (opts: UseContractFunctionInput): UseContract
       resetState()
       progress.reset()
       progress.setActiveStep('sending')
-      send(...args).catch(reject)
+      send(...args).catch(e => {
+        progress.setError(e)
+        reject(e)
+      })
     })
   }, [progress, resetState, send])
 
