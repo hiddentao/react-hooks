@@ -6,7 +6,7 @@
 ## Installation
 
 ```shell
-npm i --save @rjshooks/use-progress
+npm i --save @rjshooks/use-progress react@18
 ```
 
 ## Usage

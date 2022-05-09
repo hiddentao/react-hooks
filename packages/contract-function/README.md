@@ -6,7 +6,7 @@
 ## Installation
 
 ```shell
-npm i --save @rjshooks/use-contract-function
+npm i --save @rjshooks/use-contract-function @ethersproject/contracts @usedapp/core react@18
 ```
 
 ## Usage

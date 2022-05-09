@@ -6,7 +6,7 @@
 ## Installation
 
 ```shell
-npm i --save @rjshooks/use-flow
+npm i --save @rjshooks/use-flow react@18
 ```
 
 ## Usage
