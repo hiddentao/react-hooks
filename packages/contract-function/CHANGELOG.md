@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/hiddentao/react-hooks/compare/v0.2.3...v0.2.4) (2022-05-09)
+
+
+### Bug Fixes
+
+* **contract-function:** remove deps, will do them as peer instead ([e716a6d](https://github.com/hiddentao/react-hooks/commit/e716a6d680dd2b28501d7cdb4905b3b3c75d1808))
+
+
+
+
+
 ## [0.2.3](https://github.com/hiddentao/react-hooks/compare/v0.2.2...v0.2.3) (2022-05-09)
 
 
