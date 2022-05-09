@@ -40,18 +40,10 @@ export const useContractFunction = (opts: UseContractFunctionInput): UseContract
     resetState()
     progress.reset()
     progress.setActiveStep('sending')
-    
-    let rejectResolver: any
     new Promise((resolve, reject) => {
-      rejectResolver = reject
       setPromiseResolvers({ resolve, reject })
     })
-
-    try {
-      await send(...args)
-    } catch (err) {
-      rejectResolver(err)
-    }
+    await send(...args)
   }, [progress, resetState, send])
 
   const error = useMemo(() => state?.errorMessage ? new Error(state?.errorMessage) : null, [state])
