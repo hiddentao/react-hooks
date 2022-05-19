@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react"
-import { Contract } from '@ethersproject/contracts'
+import { Contract } from 'ethers'
 import { TransactionOptions, useContractFunction as useContractFunctionBase } from "@usedapp/core"
 import { useProgress, UseProgressHook } from "@rjshooks/use-progress"
 
