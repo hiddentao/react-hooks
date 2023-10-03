@@ -1,10 +1,8 @@
 {
-  "name": "@rjshooks/use-contract-function",
+  "name": "@rjshooks/use-async-task",
   "version": "0.2.5",
-  "description": "React hook for calling Ethereum contract functions with precise error handling and progress tracking. Replaces useContractFunction from useDapp package.",
+  "description": "React hook for performing async tasks with progress tracking.",
   "keywords": [
-    "flow",
-    "progress",
     "react",
     "hook",
     "async"
@@ -37,11 +35,8 @@
     "url": "https://github.com/hiddentao/react-hooks/issues"
   },
   "devDependencies": {
-    "@usedapp/core": "^1.0.2",
-    "ethers": "^5.6.6",
     "typescript": "^4.6.3"
   },
-  "gitHead": "d5204726be1ab8c402011ff0b2a4fc8bd91e50cd",
   "dependencies": {
     "@rjshooks/use-progress": "^0.2.5"
   },

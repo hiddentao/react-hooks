@@ -1,6 +1,6 @@
 import { useCallback, useState } from "react"
 
-export interface UseProgressHook {
+export interface ProgressHookResult {
   inProgress?: boolean,
   activeStep?: any,
   completed?: boolean,
@@ -11,7 +11,7 @@ export interface UseProgressHook {
   reset: () => void,
 }
 
-export const useProgress = (): UseProgressHook => {
+export const useProgress = (): ProgressHookResult => {
   const [inProgress, setInProgressState] = useState<boolean>()
   const [activeStep, setActiveStepState] = useState<any>()
   const [completed, setCompletedState] = useState<boolean>(false)

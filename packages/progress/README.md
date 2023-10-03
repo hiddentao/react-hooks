@@ -1,12 +1,12 @@
 # `@rjshooks/use-progress`
 
-[React hook](https://reactjs.org/docs/hooks-intro.html) for tracking the progress of a sequence of tasks.
+[React hook](https://reactjs.org/docs/hooks-intro.html) for tracking the progress of a sequence of tasks. It's perfect for use with [useAsyncTask](https://www.npmjs.com/package/@rjshooks/use-async-task).
 
 
 ## Installation
 
 ```shell
-npm i --save @rjshooks/use-progress react@18
+npm i --save @rjshooks/use-progress react@20
 ```
 
 ## Usage

@@ -5,25 +5,25 @@ A collection of useful [React hooks](https://reactjs.org/docs/hooks-intro.html) 
 
 ## Development
 
-_Note: This is a [Lerna monorepo](https://github.com/lerna/lerna). All code is in [Typescript](https://www.typescriptlang.org/)._
+_Note: This is a [PNPM monorepo](https://pnpm.io/workspaces). All code is in [Typescript](https://www.typescriptlang.org/)._
 
 Run this after cloning the repo, to bootstrap the packages:
 
 ```shell
-$ yarn bootstrap
+$ pnpm i
 ```
 
 To build an individual package, e.g. `use-progress`:
 
 ```
 $ cd packages/progress
-$ yarn build
+$ pnpm build
 ```
 
 You can also `watch` for changes and rebuild:
 
 ```
-$ yarn watch
+$ pnpm watch
 ```
 
 ### Publishing
@@ -31,8 +31,8 @@ $ yarn watch
 To do a new release:
 
 ```shell
-$ yarn pre-release
-$ yarn release
+$ pnpm pre-release
+$ pnpm release
 ```
 
 

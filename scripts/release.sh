@@ -4,4 +4,4 @@ set -e
 
 echo "publishing ..."
 
-lerna publish from-git
+pnpm -r publish --access public

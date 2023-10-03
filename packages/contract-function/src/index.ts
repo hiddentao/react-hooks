@@ -1,19 +1,19 @@
 import { useCallback, useEffect, useMemo, useState } from "react"
 import { Contract } from 'ethers'
 import { TransactionOptions, useContractFunction as useContractFunctionBase } from "@usedapp/core"
-import { useProgress, UseProgressHook } from "@rjshooks/use-progress"
+import { useProgress, ProgressHookResult } from "@rjshooks/use-progress"
 
 
-interface UseContractFunctionHook {
+interface ContractFunctionHookResult {
   exec: (...args: any[]) => Promise<unknown>,
-  progress: UseProgressHook,
+  progress: ProgressHookResult,
 }
 
-interface UseContractFunctionInput {
+interface ContractFunctionHookInput {
   contract: Contract,
   functionName: string,
   options?: TransactionOptions,
-  progress?: UseProgressHook,
+  progress?: ProgressHookResult,
 }
 
 interface PromiseResolvers {
@@ -21,7 +21,7 @@ interface PromiseResolvers {
   reject: (e: Error) => void,
 }
 
-export const useContractFunction = (opts: UseContractFunctionInput): UseContractFunctionHook => {
+export const useContractFunction = (opts: ContractFunctionHookInput): ContractFunctionHookResult => {
   const { contract, functionName, options, progress: inputProgress } = opts
 
   const selfProgress = useProgress()

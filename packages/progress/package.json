@@ -38,5 +38,9 @@
   "devDependencies": {
     "typescript": "^4.6.3"
   },
-  "gitHead": "d5204726be1ab8c402011ff0b2a4fc8bd91e50cd"
+  "gitHead": "d5204726be1ab8c402011ff0b2a4fc8bd91e50cd",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "engineStrict": true
 }
