@@ -1,6 +1,6 @@
 {
   "name": "@rjshooks/use-contract-function",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "React hook for calling Ethereum contract functions with precise error handling and progress tracking. Replaces useContractFunction from useDapp package.",
   "keywords": [
     "flow",
@@ -43,7 +43,7 @@
   },
   "gitHead": "d5204726be1ab8c402011ff0b2a4fc8bd91e50cd",
   "dependencies": {
-    "@rjshooks/use-progress": "^0.3.0"
+    "@rjshooks/use-progress": "^0.4.0"
   },
   "engines": {
     "node": ">=20.0.0"
