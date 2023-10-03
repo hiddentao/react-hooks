@@ -24,7 +24,7 @@
     "bootstrap": "lerna bootstrap --hoist",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "pre-release": "./scripts/prepare-release.sh",
-    "release": "./scripts/release.sh"     
+    "release": "./scripts/release.sh"
   },
   "husky": {
     "hooks": {
@@ -80,6 +80,7 @@
     "@semantic-release/git": "^10.0.1",
     "@types/react": "^18.0.5",
     "husky": "^7.0.4",
+    "lerna": "^7.3.0",
     "react": "^18.0.0",
     "standard-version": "^9.3.2"
   },
