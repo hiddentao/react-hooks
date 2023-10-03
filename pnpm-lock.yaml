@@ -42,7 +42,17 @@ importers:
   packages/async-task:
     dependencies:
       '@rjshooks/use-progress':
-        specifier: ^0.2.5
+        specifier: ^0.3.0
+        version: link:../progress
+    devDependencies:
+      typescript:
+        specifier: ^4.6.3
+        version: 4.6.3
+
+  packages/async-value:
+    dependencies:
+      '@rjshooks/use-progress':
+        specifier: ^0.3.0
         version: link:../progress
     devDependencies:
       typescript:
@@ -52,7 +62,7 @@ importers:
   packages/contract-function:
     dependencies:
       '@rjshooks/use-progress':
-        specifier: ^0.2.5
+        specifier: ^0.3.0
         version: link:../progress
     devDependencies:
       '@usedapp/core':

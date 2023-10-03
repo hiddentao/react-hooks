@@ -1,0 +1,47 @@
+{
+  "name": "@rjshooks/use-async-value",
+  "version": "0.3.0",
+  "description": "React hook for storing values which result from async calls.",
+  "keywords": [
+    "react",
+    "hook",
+    "async"
+  ],
+  "author": "Ramesh Nair <ram@hiddentao.com>",
+  "homepage": "https://github.com/hiddentao/react-hooks/tree/main/packages/progress#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "README.md",
+    "package.json",
+    "package-lock.json",
+    "CHANGELOG.md",
+    "LICENSE.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiddentao/react-hooks.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "bugs": {
+    "url": "https://github.com/hiddentao/react-hooks/issues"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@rjshooks/use-progress": "^0.3.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "engineStrict": true
+}

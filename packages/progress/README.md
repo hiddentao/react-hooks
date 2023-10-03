@@ -2,7 +2,6 @@
 
 [React hook](https://reactjs.org/docs/hooks-intro.html) for tracking the progress of a sequence of tasks. It's perfect for use with [useAsyncTask](https://www.npmjs.com/package/@rjshooks/use-async-task).
 
-
 ## Installation
 
 ```shell

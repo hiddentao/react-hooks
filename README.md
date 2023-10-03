@@ -2,6 +2,7 @@ A collection of useful [React hooks](https://reactjs.org/docs/hooks-intro.html) 
 
 * [use-progress](./packages/progress/) - tracking the progress of a sequence of tasks.
 * [use-async-task](./packages/async-task/) - performing async tasks with progress tracking.
+* [use-async-value](./packages/async-value/) - for storing values which result from async calls.
 * [use-contract-function](./packages/contract-function/) - for calling Ethereum contract functions with precise error handling and progress tracking. 
 
 ## Development

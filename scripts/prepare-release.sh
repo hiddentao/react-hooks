@@ -4,9 +4,10 @@ set -e
 
 echo "building ..."
 
-cd packages/progress && yarn build
-cd ../contract-function && yarn build
-cd ../async-task && yarn build
+cd packages/progress && pnpm build
+cd ../contract-function && pnpm build
+cd ../async-task && pnpm build
+cd ../async-value && pnpm build
 
 cd ../..
 
