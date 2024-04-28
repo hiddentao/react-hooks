@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react"
+import { useCallback, useMemo, useState } from "react"
 
 export interface ProgressHookResult {
   inProgress?: boolean,
@@ -12,6 +12,7 @@ export interface ProgressHookResult {
 }
 
 export const useProgress = (): ProgressHookResult => {
+  const [ obj ] = useState({})
   const [inProgress, setInProgressState] = useState<boolean>()
   const [activeStep, setActiveStepState] = useState<any>()
   const [completed, setCompletedState] = useState<boolean>(false)
@@ -41,14 +42,19 @@ export const useProgress = (): ProgressHookResult => {
     setActiveStepState(v)
   }, [])
 
-  return {
-    inProgress,
-    activeStep,
-    completed,
-    error,
-    setCompleted,
-    setError,
-    setActiveStep,
-    reset,
-  }
+  const finalObj = useMemo(() => {
+    Object.assign(obj, {
+      inProgress,
+      activeStep,
+      completed,
+      error,
+      setActiveStep,
+      setCompleted,
+      setError,
+      reset,
+    })
+    return obj
+  }, [inProgress, activeStep, completed, error, setActiveStep, setCompleted, setError, reset])
+
+  return finalObj as ProgressHookResult
 }
